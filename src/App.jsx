@@ -1,13 +1,15 @@
 import { useState } from 'react'
-import { SeccionPh } from './components/seccion-ph/seccionPh'
+import { SeccionPh } from './components/seccion-cuerpo/seccion-ph/SeccionPh'
+import { SeccionDer } from './components/seccion-cuerpo/seccion-der/SeccionDer'
 import './css/App.css'
 
 function App() {
   
   return (
-    <div className="App">
+    <main className="App">
       <SeccionPh/>
-    </div>
+      <SeccionDer/>
+    </main>
   )
 }
 

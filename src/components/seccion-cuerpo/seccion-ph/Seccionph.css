@@ -1,6 +1,6 @@
     .seccionImagen{
     display: flex;
-    width: 90%;
+    max-width: 60%;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -8,17 +8,19 @@
     margin: 10px;
 }
 .seccionImagen__img:first-child{
-    width: 350px;
+    width: 250px;
     border-radius:5rem 0 5rem 0;
     height: 350px;
     margin-bottom: 0;
+    margin-left: 50px;
     z-index: 10;
     border-bottom: 15px solid #fff;
     border-right: 15px solid #fff;
 }
 .seccionImagen__img:nth-child(2){
-    width: 350px;
+    width: 250px;
     height: 350px;
+    border-radius:0 4rem  0 0;
 }
 .seccionImagen-container-left{
     display: flex;
@@ -36,40 +38,42 @@
 
 }
 .seccionImagen__div{
-    width: 350px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
     position: relative;;
     background-color: #000;
     margin: 20px 10px  0  10px;
     margin-top: 0;
     border-radius:0 0 4rem 0;
-    top: -20%;
+    top: -10%;
     color: #fff;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;      
+    margin-left: 50px;  
 }
 .seccionImagen__img-r{
-    width: 340px;
-    height: 340px;
+    width: 230px;
+    height: 170px;
     border-radius: 50%;
     border: 15px solid #fff;
     position: relative;
-    top: -200px;
-    margin-left: 15px;
+    top: -120px;
+    margin-left: 20px;
     margin-right: 0;
     z-index: 1;
     border-bottom: none;
 }
 .seccionImagen__div-2{
     position: relative;
-    width: 350px;
+    width: 250px;
     border-radius:0 5rem 0 5rem;
     height: 450px;
     margin-bottom: 0;
     z-index: 1;
     background-image: linear-gradient(to top, red, blue); 
-    top: -10%;
+    margin-left: 30px;
+    top: -8%;
 }
 .container-right-line{
     display: flex;

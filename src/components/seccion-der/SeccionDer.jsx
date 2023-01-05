@@ -1,1 +1,0 @@
-import 'Seccionder.css'
