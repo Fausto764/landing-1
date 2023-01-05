@@ -1,4 +1,4 @@
-.seccionImagen{
+    .seccionImagen{
     display: flex;
     width: 90%;
     flex-direction: row;
@@ -50,7 +50,7 @@
     justify-content: center;
     align-items: center;    
 }
-.seccionImagen__img:nth-child(4){
+.seccionImagen__img-r{
     width: 340px;
     height: 340px;
     border-radius: 50%;
@@ -59,6 +59,8 @@
     top: -200px;
     margin-left: 15px;
     margin-right: 0;
+    z-index: 1;
+    border-bottom: none;
 }
 .seccionImagen__div-2{
     position: relative;
@@ -68,10 +70,23 @@
     margin-bottom: 0;
     z-index: 1;
     background-image: linear-gradient(to top, red, blue); 
+    top: -25%;
 }
+.container-right-line{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
 .line{
-    width: 10px;
-    height:400px;
+    width: 1px;
+    height:280px;
     background-color: #000;
+    position: relative;
+    top: -60%;
+}
+.right-text{
+    position: relative;
+    top: -60%;
 }

@@ -12,7 +12,7 @@ export function SeccionPh (){
                     <div className="seccionImagen__div-2"></div>
                 </div>
                 <div className='seccionImagen-container-right'>
-                     <img src={'/src/logo.jpg'} className="seccionImagen__img"/>
+                     <img src={'/src/logo.jpg'} className="seccionImagen__img-r"/>
                      <div className='container-right-line'>
                             <div className='line'></div>
                             <h5 className='right-text'>Cooperate as designer/media</h5>
