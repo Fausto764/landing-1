@@ -1,6 +1,6 @@
-    .seccionImagen{
+.seccionImagen{
     display: flex;
-    max-width: 60%;
+    max-width: 50%;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -14,8 +14,8 @@
     margin-bottom: 0;
     margin-left: 50px;
     z-index: 10;
-    border-bottom: 15px solid #fff;
-    border-right: 15px solid #fff;
+    border-bottom: 15px solid #efefef;
+    border-right: 15px solid #efefef;
 }
 .seccionImagen__img:nth-child(2){
     width: 250px;
@@ -56,7 +56,7 @@
     width: 230px;
     height: 170px;
     border-radius: 50%;
-    border: 15px solid #fff;
+    border: 15px solid #efefef;
     position: relative;
     top: -120px;
     margin-left: 20px;
@@ -72,7 +72,7 @@
     margin-bottom: 0;
     z-index: 1;
     background-image: linear-gradient(to top, red, blue); 
-    margin-left: 30px;
+    margin-left: 40px;
     top: -8%;
 }
 .container-right-line{
@@ -88,6 +88,7 @@
     background-color: #000;
     position: relative;
     top: -60%;
+    left: 10px;
 }
 .right-text{
     position: relative;

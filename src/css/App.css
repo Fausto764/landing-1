@@ -1,8 +1,9 @@
-.App{
+.contenedor__cuerpo{
   width: 100vw;
   min-height: 100vh;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: space-evenly;
   background-color: #efefef;
 }
